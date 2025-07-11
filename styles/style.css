@@ -20,6 +20,7 @@ body {
     margin: 0;
     width: 100%;
     height: 100vh;
+    background-color: #F5F8FF;
 }
 
 /* shared styles */
@@ -114,7 +115,8 @@ main{
 /* productive user styles */
 .pro-user{
      margin-top: 80px;
-    background-color: #eaeaf4;
+    background-color: rgba(78,71,255,10%); 
+
     padding: 50px 140px;
     border-radius: 20px;
     
@@ -140,5 +142,59 @@ main{
 .user-number{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+/* review styles */
+.review-title{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-top: 126px;
+}
+/* reaction styles */
+.star{
+    display: flex;
+    height: 20px;
+    width: 100px;
+    box-shadow: none;
+    gap: 5px;
+}
+.below-star{
+    margin-top: 24px;
+color: #1E1E1E;
+}
+.below-love{
+margin-top: 8px;
+color: #1E1E1E;
+}
+.person{
+display: flex;
+gap: 10px;
+
+}
+.name{
+    margin-top: 20px;
+color: #757575;
+}
+.date{
+    margin-top:3px ;
+color: #B3B3B3;
+}
+.avatar{
+    border-radius: 50%;
+}
+.reaction{
+    display: flex;
+    margin-top: 50px;
+    gap: 15px;
+} 
+.card{
+    width: 33%;
+    height: 200px;
+    text-align: left;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    padding: 24px;
+
 }
