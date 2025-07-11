@@ -223,3 +223,90 @@ width: 840px;
 height: 365px;
 border-radius: 48px;
 }
+
+/* newsletter styles */
+.newsletter{
+    display: flex;
+    padding: 71px  0px;
+    /* gap: 115px; */
+     justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.title{
+    color: #000000;
+    font-weight: bold;
+    font-size: 77px;
+    
+}
+.place{
+    font-size: 18px;
+    font-weight: Medium;
+}
+.form{
+    width: 40%;
+}
+.form input[type="email"]{
+    height:20px ;
+    width: 390px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 20px 32px;
+    border: none;
+    
+}
+.form input[type="text"]{
+    height:15px ;
+   width: 390px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 20px 32px;
+     border: none;
+    
+}
+.form textarea{
+    height:15px ;
+    width: 390px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 20px 32px;
+     border: none;
+    
+}
+.form button{
+    margin-top: 15px;
+    width: 455px;
+}
+/* footer styles */
+.foot{
+    padding-top: 104px;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 428px;
+    background-color: #FFFFFF;
+}
+.logo{
+color: #4E47FF;
+font-weight: Black;
+font-size: 100px;
+margin-bottom: 20px;
+}
+.last ul {
+ margin-top: 20px;  
+color: #8987A1;
+display: flex;
+justify-content: center;
+gap: 48px;
+}
+.last ul li{
+    list-style: none;
+    
+}
+.last ul li a{
+    text-decoration: none;
+    color: #8987A1;
+}
+.foot p{
+    color: #8987A1;
+}
