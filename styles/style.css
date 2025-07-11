@@ -106,3 +106,17 @@ nav ul a {
     width: 375px;
     height: 300px;
 }
+/* productive user styles */
+.pro-user{
+    margin: 50px 140px;
+    background-color: #eaeaf4;
+    padding: 90px auto;
+}
+.pu-1{
+    align-items: center;
+}
+.user-number{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
